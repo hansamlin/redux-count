@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 100vh;
+  margin: auto;
+
+  .text {
+    align-self: center;
+    font-size: 2rem;
+
+    span {
+      color: red;
+    }
+  }
+
+  .button-container {
+    display: flex;
+
+    button {
+      flex: 1;
+      font-size: 2rem;
+      margin: 30px;
+      display: block;
+    }
+  }
+}
